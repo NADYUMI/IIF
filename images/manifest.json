@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1275,
+    "id" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n/canvas/",
+    "label" : {
+      "none" : [ "53211110_238608430427706_3973122534399803392_n" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 40,
+              "height" : 42
+            }, {
+              "width" : 80,
+              "height" : 83
+            }, {
+              "width" : 160,
+              "height" : 165
+            }, {
+              "width" : 319,
+              "height" : 330
+            }, {
+              "width" : 638,
+              "height" : 660
+            }, {
+              "width" : 1275,
+              "height" : 1319
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1275,
+            "@id" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1319
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1275,
+          "id" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1319
+        },
+        "target" : "https://NADYUMI.github.io/IIF/images/53211110_238608430427706_3973122534399803392_n/canvas/"
+      } ]
+    } ],
+    "height" : 1319
+  }, {
     "width" : 365,
     "id" : "https://NADYUMI.github.io/IIF/images/Capture/canvas/",
     "label" : {
