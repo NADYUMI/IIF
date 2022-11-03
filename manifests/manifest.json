@@ -1,0 +1,57 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://NADYUMI.github.io/IIF/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://514de1ce-4df4-445e-876f-d2499d629b28",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://db85ac2c-419f-48e7-93e4-9bcd5c5be612",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 351,
+      "width" : 624,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://339df7d3-1fd3-4d8f-b7e4-40152b4f5322",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://nadyumi.github.io/IIF/images/IMG/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://nadyumi.github.io/IIF/images/IMG",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 351,
+          "width" : 624
+        },
+        "on" : "http://db85ac2c-419f-48e7-93e4-9bcd5c5be612"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://895f8ab8-33bb-442f-8937-4bf922a9c0f6",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
